@@ -1,13 +1,13 @@
-{% if page_paths %}
+<p class="p-2 text-muted text-center">Bem-vind@ ao canal de comunicação oficial do CACC UFFS!</p>
 <hr class="featurette-divider">
+{% if page_paths %}
 <div class="nav-scroller py-1 mb-2 ">
   <nav class="nav d-flex justify-content-between">
-    {% for path in page_paths %}
-      {% assign my_page = site.pages | where: "path", path | first %}
-      {% if my_page.title %}
-        <a class="p-2 text-muted" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-      {% endif %}
-    {% endfor %}
+    <a class="p-2 text-muted" href="/">Home</a>
+    <a class="p-2 text-muted" href="/curso">O Curso</a>
+    <a class="p-2 text-muted" href="/faq">F.A.Q.</a>
+    <a class="p-2 text-muted" href="/contato">Contato</a>
+    <a class="p-2 text-muted" href="/sobre">Sobre</a>
   </nav>
 </div>
 {% endif %}
