@@ -20,6 +20,6 @@ Para realização da roda de conversa teremos alguns convidados que irão compor
 
 <div class="text-center">
   <a href="https://www.facebook.com/events/274419063206636/">
-    <img src="{{ "/images/dilemas_eticos.jpg" | absolute_url }}" style="max-width: 60%;" alt="Dilemas éticos"/>
+    <img src="{{ "/images/dilemas_eticos.jpg" | absolute_url }}" style="max-width: 30%;" alt="Dilemas éticos"/>
   </a>
 </div>
