@@ -1,24 +1,18 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-    <!-- <h1 class="page-heading">Posts</h1> -->
-
   {{ content }}
-
-  <ul class="post-list">
+  <div class="container">
     {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+      <div class="noticia">
+        <a href="{{ post.url | prepend: site.baseurl }}" style="color:#505050;text-decoration:none">
+          <h4>{{ post.title }}</h4>
+        </a>
+        <span class="post-meta"> {{ post.date | date_to_long_string }}</span>
+        <p class="card-text">{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+        <p class="text-right"><a href="{{ post.url | prepend: site.baseurl }}"> continue lendo...</a></p>
+    </div>
     {% endfor %}
-  </ul>
-
+  </div>
 </div>

@@ -3,11 +3,9 @@
 {% if page_paths %}
 <div class="nav-scroller py-1 mb-2 ">
   <nav class="nav d-flex justify-content-between">
-    <a class="p-2 text-muted" href="/">Home</a>
-    <a class="p-2 text-muted" href="/curso">O Curso</a>
-    <a class="p-2 text-muted" href="/faq">F.A.Q.</a>
-    <a class="p-2 text-muted" href="/contato">Contato</a>
-    <a class="p-2 text-muted" href="/sobre">Sobre</a>
+    {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html%}{% assign current = 'current' %}{% endif %}
+      <a class="p-2 text-muted" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+    {% endfor %}
   </nav>
 </div>
 {% endif %}
