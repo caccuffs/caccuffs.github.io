@@ -10,7 +10,7 @@ layout: default
           <h4>{{ post.title }}</h4>
         </a>
         <span class="post-meta"> {{ post.date | date_to_long_string }}</span>
-        <p class="card-text">{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+        <p class="card-text text-justify">{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
         <p class="text-right"><a href="{{ post.url | prepend: site.baseurl }}"> continue lendo...</a></p>
     </div>
     {% endfor %}
