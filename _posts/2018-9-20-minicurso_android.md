@@ -7,7 +7,7 @@ categories: news
 O __CACC UFFS__ tem a honra de anunciar o minicurso de __Criação de um App a partir do ZERO!__ com o __Artur Sponchiado__.
 
 <div class="text-center">
-    <img src="{{ "/images/minicurso_android.png" | absolute_url }}" style="max-width: 30%;" alt="Minicurso Adroid"/>
+    <img src="{{ "/images/minicurso_android.png" | absolute_url }}" style="max-width: 350px;" alt="Minicurso Adroid"/>
 </div>
 
 A oficina tem como o objetivo introduzir e aprimorar conceitos de criação de aplicativos móveis, especificamente para a plataforma Android. Para isso, um aplicativo será desenvolvido durante os encontros, tendo como forma de aprendizado o estilo dojo, onde todos os integrantes do grupo desenvolvem juntos.
