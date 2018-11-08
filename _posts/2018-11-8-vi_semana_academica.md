@@ -18,7 +18,7 @@ Este ano teremos três categorias para inscrição:
 
 Só poderá participar quem fizer a inscrição com antecedência!
 
-As inscrições poderão estarão abertas no site a partir do dia 12 e o pagamento poderá ser feito por cartão de crédito ou boleto. SE a inscrição não for confirmada até o dia do evento, apresentar o comprovante!!
+As inscrições estarão abertas no site apartir do dia 12 e o pagamento poderá ser feito por cartão de crédito ou boleto. SE a inscrição não for confirmada até o dia do evento, apresentar o comprovante!!
 
 “Ah mas os valores ainda estão alto pra mim!”
 
